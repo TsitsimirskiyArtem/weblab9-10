@@ -1,0 +1,32 @@
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.select {
+    width: 180px;
+    height: 38px;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.apply-btn {
+    width: 140px;
+    height: 38px;
+    color: #ffffff;
+    background-color: #27ae60;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.apply-btn:hover {
+    background-color: #229954;
+}
